@@ -7,7 +7,6 @@ date: 21th June 2022
 
 # HTML EXTERNAL LANGUAGES
 ## TABLE OF CONTENT
-<br>
 
 - [HTML EXTERNAL LANGUAGES](#html-external-languages)
   - [TABLE OF CONTENT](#table-of-content)
@@ -28,10 +27,9 @@ date: 21th June 2022
     - [SCRIPT](#script)
     - [EXAMPLE](#example-4)
 
-<br>
+---
 
 ## CSS
-<br>
 
 ### INTRODUCTION
 Cascading Style Sheets (CSS) is used to format the layout of a webpage.
@@ -71,7 +69,6 @@ HTML id Attribute: The id attribute is a unique identifier which is used to spec
     
     </html> 
 <br>
-
 
 ### CLASS
 HTML class Attribute: The class attribute is used to specify one or more class names for an HTML element. The class attribute can be used on any HTML element. The class name can be used by CSS and [JavaScript](#JAVASCRIPT) to perform certain tasks for elements with the specified class name. The class name in CSS stylesheet using “.” symbol.
