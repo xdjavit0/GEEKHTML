@@ -34,7 +34,7 @@ HTML Formatting is a process of formatting text for better look and feel. HTML p
 
 A HTML heading or HTML h tag can be defined as a title or a subtitle which you want to display on the webpage. When you place the text within the heading tags `<h1>`.........`</h1>`, it is displayed on the browser in the bold format and size of the text depends on the number of heading.
 
-There are six different HTML headings which are defined with the `<h1>` to `<h6>` tags, from highest level h1 (main heading) to the least level h6 (least important heading).
+There are six different HTML headings which are defined with the `<h1>` to `<h6>` tags, from highest level h1 (main heading) to the least level h6 (least important heading). 
 
 `<h1>` is the largest heading tag and h6 is the smallest one. So `<h1>` is used for most important heading and `<h6>` is used for least important.
 
