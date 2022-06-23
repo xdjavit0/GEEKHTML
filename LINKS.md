@@ -7,7 +7,27 @@ date: 23th June 2022
 
 # Links
 
-[Links](#links)
+- [Links](#links)
+  - [INTRODUCTION](#introduction)
+    - [EXAMPLES](#examples)
+  - [`<a>` Anchor tag](#a-anchor-tag)
+    - [INTRODUCTION](#introduction-1)
+    - [EXAMPLES](#examples-1)
+    - [HREF](#href)
+    - [Examples](#examples-2)
+      - [Linking to an absolute URL](#linking-to-an-absolute-url)
+      - [Linking to relative URLs](#linking-to-relative-urls)
+      - [Linking to an element on the same page](#linking-to-an-element-on-the-same-page)
+      - [Linking to an email address](#linking-to-an-email-address)
+      - [Linking to telephone numbers](#linking-to-telephone-numbers)
+      - [External links and linking to non-HTML resources](#external-links-and-linking-to-non-html-resources)
+    - [HTML Link Colors](#html-link-colors)
+    - [Iframe](#iframe)
+      - [Definition and Usage](#definition-and-usage)
+      - [HTML Iframe Syntax](#html-iframe-syntax)
+      - [Syntax](#syntax)
+      - [Iframe - Set Height and Width](#iframe---set-height-and-width)
+
 
 ## INTRODUCTION
 
@@ -114,7 +134,7 @@ Result
 
 ---
 
-### Linking to an email address
+#### Linking to an email address
 
 To create links that open in the user's email program to let them send a new message, use the mailto: scheme:
 
@@ -126,9 +146,7 @@ Result:
 
 ---
 
-### Linking to telephone numbers
-
-### EXAMPLES
+#### Linking to telephone numbers
 
         <a href="tel:+49.157.0156">+49 157 0156</a>
         <a href="tel:+1(555)5309">(555) 5309</a>
@@ -147,7 +165,7 @@ RESULT
 
 ---
 
-### External links and linking to non-HTML resources
+#### External links and linking to non-HTML resources
 
 Links that open in a new tab/window via target=“_blank”, or links that point to a download file should indicate what will happen when the link is followed.
 
@@ -166,6 +184,7 @@ People experiencing low vision conditions, navigating with the aid of screen rea
 - Link to a non-HTML resource
 
         <a href="2017-annual-report.ppt">2017 Annual Report (PowerPoint)</a>
+
         If an icon is used to signify link behavior, make sure it has alt text:
         <a target="_blank" href="https://www.wikipedia.org">
         Wikipedia
@@ -185,3 +204,39 @@ By default, a link will appear like this (in all browsers):
 - An unvisited link is underlined and blue
 - A visited link is underlined and purple
 - An active link is underlined and red
+  
+---
+
+### Iframe
+
+An HTML iframe is used to display a web page within a web page.
+
+    <iframe src="https://www.google.com" title="Google page"></iframe>
+
+#### Definition and Usage
+
+The `<iframe>` tag specifies an inline frame.
+
+#### HTML Iframe Syntax
+
+The HTML `<iframe>` tag specifies an inline frame.
+
+An inline frame is used to embed another document within the current HTML document.
+
+#### Syntax
+
+    <iframe src="url" title="description"></iframe>
+
+**Tip**: It is a good practice to always include a title attribute for the `<iframe>`. This is used by screen readers to read out what the content of the iframe is.
+
+#### Iframe - Set Height and Width
+
+Use the height and width attributes to specify the size of the iframe.
+
+The height and width are specified in pixels by default:
+
+Example
+
+    <iframe src="demo_iframe.htm" height="200" width="300" title="Iframe Example"></iframe>
+
+---
