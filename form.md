@@ -601,6 +601,8 @@ The `<button>` element defines a clickable button:
 
 In this example shows a form with inputs user and password and a button to send the form.
 
+---
+
 ### FIELDSET AND LEGEND
 
 The fieldset element is used to group related data in a form, and the legend element defines a caption for the fieldset element.
@@ -619,6 +621,8 @@ The fieldset element is used to group related data in a form, and the legend ele
 
 In this example shows a fieldset element this used to group a form with dates of user and inputs are captions for the fieldset element.
 
+---
+
 ### TEXTAREA
 
 The `<textarea>` element defines a multi-line input field (a text area):
@@ -632,6 +636,7 @@ The `<textarea>` element defines a multi-line input field (a text area):
 
 In this example shows a text box with ten rows(attribute specifies the visible number of lines in a text area) and thirty columns(attribute specifies the visible width of a text area).
 
+---
 ### OUTPUT
 
 The `<output>` HTML element is a container element into which a site or app can inject the results of a calculation or the outcome of a user action.
@@ -644,3 +649,5 @@ The `<output>` HTML element is a container element into which a site or app can 
     </form>
 
 In this example, the form provides a slider whose value can range between 0 and 100, and an `<input>` element into which you can enter a second number. The two numbers are added together, and the result is displayed in the `<output>` element each time the value of any of the controls changes.
+
+---
