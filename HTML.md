@@ -127,7 +127,7 @@ The tags have to open and close in a way that they are inside or outside one ano
 
 HTML has a mechanism to write comments in the code. Browsers ignore comments, effectively making comments invisible to the user. The purpose of comments is to allow you to include notes in the code to explain your logic or coding. This is very useful if you return to a code base after being away for long enough that you don't completely remember it. Likewise, comments are invaluable as different people are making changes and updates.
 
-EX:
+EXAMPLE:
 
     <!-- Here you can write what you want to comment -->
 ---
