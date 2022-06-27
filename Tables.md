@@ -212,11 +212,13 @@ A table can be splited in three parts: head (thead), body (tbody), foot (tfoot).
 
 <html>
 <head>
+
 <style>
 thead {color: green;}
 tbody {color: yellow;}
 tfoot {color: red;}
 </style>
+
 </head>
 <body>
 
