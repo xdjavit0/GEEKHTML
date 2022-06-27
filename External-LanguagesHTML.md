@@ -150,8 +150,6 @@ An internal CSS is defined in the ``<head>`` section of an HTML page, within a `
     </html>
 
 The following example sets the text color of ALL the ``<h1>`` elements (on that page) to blue, and the text color of ALL the ``<p>`` elements to red. In addition, the page will be displayed with a "powderblue" background color: 
- 
----
 
 #### EXTERNAL CSS
 An external style sheet is used to define the style for many HTML pages.
