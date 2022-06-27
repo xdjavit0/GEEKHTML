@@ -101,7 +101,7 @@ Here, we are using de `<p>` tag to create 2 different paragraphs.
 ### DISPLAY
 
 You cannot be sure how HTML will be displayed.
-LarGe or small screens, and resized windows will create different results.
+Large or small screens, and resized windows will create different results.
 
 With HTML, you cannot change the display by adding extra spaces or extra lines in your HTML code.
 The browser will automatically remove any extra spaces and lines when the page is displayed:
