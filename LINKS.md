@@ -9,7 +9,6 @@ date: 23th June 2022
 
 - [Links](#links)
   - [INTRODUCTION](#introduction)
-    - [EXAMPLES](#examples)
   - [`<a>` Anchor tag](#a-anchor-tag)
     - [INTRODUCTION](#introduction-1)
     - [EXAMPLES](#examples-1)
@@ -31,16 +30,6 @@ date: 23th June 2022
 ## INTRODUCTION
 
 The `<link>` HTML element specifies relationships between the current document and an external resource. This element is most commonly used to link to stylesheets and scripts, but is also used to establish site icons (both “favicon” style icons and icons for the home screen and apps on mobile devices) among other things.
-
-### EXAMPLES
-
-To link an external stylesheet, you'd include a `<link>` element inside your `<head>` like this:
-
-    <head>
-    <link href="style.css" rel="stylesheet">
-    </head>
-
-This simple example provides the path to the stylesheet inside an **href** attribute, and a **rel** attribute with a value of stylesheet. The rel stands for “relationship”, and is probably one of the key features of the `<link>` element — the value denotes how the item being linked to is related to the containing document. As you'll see from our Link types reference, there are many different kinds of relationship.
 
 ---
 
@@ -95,9 +84,9 @@ The URL that the hyperlink points to. Links are not restricted to HTTP-based URL
 - Email addresses with mailto: URLs
 - While web browsers may not support other URL schemes, web sites can with registerProtocolHandler().
 
-### Examples
+### EXAMPLES
 
-#### Linking to an absolute URL
+#### LINKING TO AN ABSOLUTE URL
 
 - HTML
 
@@ -109,7 +98,7 @@ Result:
 
 ---
 
-#### Linking to relative URLs
+#### LINKING TO RELATIVE URLS
 
     <a href="//example.com">Scheme-relative URL</a>
     <a href="/en-US/docs/Web/HTML">Origin-relative URL</a>
@@ -121,7 +110,7 @@ Result
 - <a href="/en-US/docs/Web/HTML">Origin-relative URL</a>
 - <a href="./p">Directory-relative URL</a>
 
-#### Linking to an element on the same page
+#### LINKING TO AN ELEMENT ON THE SAME PAGE
 
         <a> element links to the section below
         <p><a href="#Section_further_down">
@@ -133,7 +122,7 @@ Result
 
 ---
 
-#### Linking to an email address
+#### LINKING TO AN EMAIL ADDRESS
 
 To create links that open in the user's email program to let them send a new message, use the mailto: scheme:
 
@@ -145,7 +134,7 @@ Result:
 
 ---
 
-#### Linking to telephone numbers
+#### LINKING TO TELEPHONE NUMBERS
 
         <a href="tel:+49.157.0156">+49 157 0156</a>
         <a href="tel:+1(555)5309">(555) 5309</a>
@@ -164,7 +153,7 @@ RESULT
 
 ---
 
-#### External links and linking to non-HTML resources
+#### EXTERNAL LINKING TO NON-HTML RESOUCES
 
 Links that open in a new tab/window via target=“_blank”, or links that point to a download file should indicate what will happen when the link is followed.
 
@@ -196,7 +185,7 @@ People experiencing low vision conditions, navigating with the aid of screen rea
 
 ---
 
-### HTML Link Colors
+### HTML LINK COLORS
 
 By default, a link will appear like this (in all browsers):
 
@@ -206,29 +195,29 @@ By default, a link will appear like this (in all browsers):
   
 ---
 
-### Iframe
+### IFRAME
 
 An HTML iframe is used to display a web page within a web page.
 
     <iframe src="https://www.google.com" title="Google page"></iframe>
 
-#### Definition and Usage
+#### DEFINITION AND USAGE
 
 The `<iframe>` tag specifies an inline frame.
 
-#### HTML Iframe Syntax
+#### HTML IFRAME SYNTAX
 
 The HTML `<iframe>` tag specifies an inline frame.
 
 An inline frame is used to embed another document within the current HTML document.
 
-#### Syntax
+#### SYNTAX
 
     <iframe src="url" title="description"></iframe>
 
 **Tip**: It is a good practice to always include a title attribute for the `<iframe>`. This is used by screen readers to read out what the content of the iframe is.
 
-#### Iframe - Set Height and Width
+#### IFRAME - SET HEIGHT AND WIDTH
 
 Use the height and width attributes to specify the size of the iframe.
 
