@@ -106,7 +106,7 @@ This is an example of a basic table structure.
         </tr>
     </table>
 
-This example shows an example of a simple table. The op
+This example shows an example of a simple table.
 
 ---
 ## CAPTION
