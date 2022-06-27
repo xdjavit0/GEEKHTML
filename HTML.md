@@ -7,19 +7,19 @@ date: 21th June 2022
 
 # HTML
 
-## Table of Contents
+## TABLE OF CONTENTS
 
 - [HTML](#html)
-  - [Table of Contents](#table-of-contents)
+  - [TABLE OF CONTENTS](#table-of-contents)
   - [INTRODUCTION](#introduction)
     - [ABOUT HTML](#about-html)
   - [HOW TO](#how-to)
     - [Getting started with HTML](#getting-started-with-html)
-      - [The anatomy of an element](#the-anatomy-of-an-element)
-      - [An exemple](#an-exemple)
-      - [Nesting elements](#nesting-elements)
-      - [Comments](#comments)
-  - [HTML Editors](#html-editors)
+      - [THE ANATOMY OF AN ELEMENT](#the-anatomy-of-an-element)
+      - [AN EXEMPLE](#an-exemple)
+      - [NESTING ELEMENTS](#nesting-elements)
+      - [COMMENTS](#comments)
+  - [HTML EDITORS](#html-editors)
     - [HTML USING NOTEPAD OR TEXEDIT](#html-using-notepad-or-texedit)
     - [TOP HTML IDES:](#top-html-ides)
   - [ELEMENTS TYPES](#elements-types)
