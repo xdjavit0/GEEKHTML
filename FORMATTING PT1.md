@@ -58,7 +58,7 @@ There are six different HTML headings which are defined with the `<h1>` to `<h6>
 
 `<h1>` is the largest heading tag and h6 is the smallest one. So `<h1>` is used for most important heading and `<h6>` is used for least important.
 
-### EXAMPLE
+## EXAMPLE
 
     <h1>Heading 1</h1>
 
@@ -91,7 +91,7 @@ The HTML `<p>` element defines a paragraph.
 
 A paragraph always starts on a new line, and browsers automatically add some white space (a margin) before and after a paragraph.
 
-### EXAMPLE
+## EXAMPLE
 
     <p>This is a paragraph.</p>
     <p>This is another paragraph.</p>
@@ -105,7 +105,7 @@ LarGe or small screens, and resized windows will create different results.
 With HTML, you cannot change the display by adding extra spaces or extra lines in your HTML code.
 The browser will automatically remove any extra spaces and lines when the page is displayed:
 
-#### EXAMPLE
+### EXAMPLE
 
     <p>
     This paragraph
@@ -126,7 +126,7 @@ The HTML `<br>` element defines a line break.
 Use `<br>` if you want a line break (a new line) without starting a new paragraph.
 This tag is empty, which means that it has no end tag.
 
-### EXAMPLE
+## EXAMPLE
 
     This is <br> a sentence <br> with line breaks
 
@@ -143,7 +143,7 @@ This is <br> a sentence <br> with line breaks.
 
 The HTML `<b>` element defines bold text, without any extra importance.
 
-#### EXAMPLE
+### EXAMPLE
 
     <b>This text is bold</b>
 
@@ -157,7 +157,7 @@ In this example is shown how the `<b>`tag works, the output should show somethin
 
 The HTML `<em>` element defines emphasized text. The content inside is typically displayed in italic. 
 
-#### EXAMPLE
+### EXAMPLE
 
     <em>This text is emphasized</em>
 
@@ -172,7 +172,7 @@ The HTML `<i>` element defines a part of text in an alternate voice or mood. The
 
 **Tip:** The `<i>` tag is often used to indicate a technical term, a phrase from another language, a thought, a ship name, etc.
 
-#### EXAMPLE
+### EXAMPLE
 
     <i>This text is italic</i>
 
@@ -183,7 +183,7 @@ The HTML `<i>` element defines a part of text in an alternate voice or mood. The
 ### SMALL TEXT
 If you want to put your font size smaller than the rest of the text then put the content within `<small>`.........`</small>` tag. It reduces one font size than the previous one.
 
-#### EXAMPLE
+### EXAMPLE
     <small>Write the paragraph in smaller font.</small>
 
 In this example we can see how the tag is used. The output should be something like the text below:
@@ -195,7 +195,7 @@ In this example we can see how the tag is used. The output should be something l
 ### STRONG TAG
 The HTML `<strong>` tag is a logical tag, which displays the content in bold font and informs the browser about its logical importance. If you write anything between `<strong>`........ `</strong>`, is shown important text.
 
-#### EXAMPLE
+### EXAMPLE
 
     <strong>This is an important content</strong>
 
@@ -205,7 +205,7 @@ The HTML `<strong>` tag is a logical tag, which displays the content in bold fon
 
 If you put the content within `<sub>`..............`</sub>` element, is shown in subscript ; means it is displayed half a character's height below the other characters.
 
-#### EXAMPLE
+### EXAMPLE
     <sub>Write Your First Paragraph in subscript.</sub>
 
 ---
@@ -214,7 +214,7 @@ If you put the content within `<sub>`..............`</sub>` element, is shown in
 
 The `<sup>` tag defines superscript text. Superscript text appears half a character above the normal line, and is sometimes rendered in a smaller font. Superscript text can be used for footnotes.
 
-#### EXAMPLE
+### EXAMPLE
 
 This text contains `<sup>`superscript`</sup>` text.
 
@@ -228,7 +228,7 @@ This text contains <sup>superscript</sup> text.
 
 The `<ins>` element is used to identify text that has been inserted into a document. It is often paired with a `<del>` element which identifies deleted text replaced by the text contained in the `<ins>` element.
 
-#### EXAMPLE
+### EXAMPLE
 
     My favorite color is <del>blue</del> <ins>red</ins>!
 
@@ -242,7 +242,7 @@ In this example we can see how the 2 tags are used.
 
 The `<mark>` tag defines text that should be marked or highlighted.
 
-#### EXAMPLE
+### EXAMPLE
 
     Do not forget to buy <mark>milk</mark> today.
 
