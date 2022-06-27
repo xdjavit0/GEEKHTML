@@ -72,7 +72,6 @@ There are six different HTML headings which are defined with the `<h1>` to `<h6>
 
     <h6>Heading 6</h6>
     
-    <h1>Heading 1</h1>
 
 Here we are showing how to the heading tag works.
 
