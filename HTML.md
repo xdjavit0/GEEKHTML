@@ -63,11 +63,11 @@ This is a standard page of html
 
 ## HOW TO
 
-### Getting started with HTML
+### GETTING STARTED WITH HTML
 
 Every element on HMTL has open content and closing structure.
 
-#### The anatomy of an element
+#### THE ANATOMY OF AN ELEMENT
 
 - The opening tag: This consists of the name of the element (in this example, p for paragraph), wrapped in opening and closing angle brackets. This opening tag marks where the element begins or starts to take effect. In this example, it precedes the start of the paragraph text.
 - The content: This is the content of the element. In this example, it is the paragraph text.
@@ -75,7 +75,7 @@ Every element on HMTL has open content and closing structure.
 
 <!-- end of the list -->
 
-#### An exemple
+#### AN EXAMPLE
 
     <!DOCTYPE html>
     <html>
@@ -103,7 +103,7 @@ What's mean's the tags?
 <!-- end of the list -->
 ---
 
-#### Nesting elements
+#### NESTING ELEMENTS
 
 Elements can be placed within other elements. This is called nesting. If we wanted to state that our cat is very grumpy, we could wrap the word very in a `<strong>` element, which means that the word is to have stronger text formatting:
 
@@ -123,7 +123,7 @@ The tags have to open and close in a way that they are inside or outside one ano
 
 ---
 
-#### Comments
+#### COMMENTS
 
 HTML has a mechanism to write comments in the code. Browsers ignore comments, effectively making comments invisible to the user. The purpose of comments is to allow you to include notes in the code to explain your logic or coding. This is very useful if you return to a code base after being away for long enough that you don't completely remember it. Likewise, comments are invaluable as different people are making changes and updates.
 
@@ -132,7 +132,7 @@ EXAMPLE:
     <!-- Here you can write what you want to comment -->
 ---
 
-## HTML Editors
+## HTML EDITORS
 
 Only a simple text editor is needed to write an HTML document.
 
