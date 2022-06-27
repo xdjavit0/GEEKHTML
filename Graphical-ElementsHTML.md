@@ -19,7 +19,6 @@ date: 21th June 2022
     - [VIDEO](#video)
     - [EXAMPLE](#example-2)
     - [Browser Support](#browser-support)
-  - [| Opera | YES | YES | YES|](#-opera--yes--yes--yes)
     - [OBJECT](#object)
     - [EXAMPLE](#example-3)
 
