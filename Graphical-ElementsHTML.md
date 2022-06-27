@@ -60,14 +60,23 @@ alt - Specifies an alternate text for the image, if the image for some reason ca
     
     <body style="text-align: center;">
         <h3>GeeksforGeeks logo</h3>
-        
         <img src=
-    "https://media.geeksforgeeks.org/wp-content/uploads/geeksforgeeks-13.png"
-            width="420" height="100" 
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1024px-HTML5_logo_and_wordmark.svg.png"
+            width="500" height="300" 
             alt="Geeksforgeeks.org">
     </body>
     
     </html>
+ <!DOCTYPE html>
+<html>
+    <body style="text-align: center;">
+        <img src=
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1024px-HTML5_logo_and_wordmark.svg.png"
+            width="500" height="300" 
+            alt="Geeksforgeeks.org">
+    </body>    
+</html>
+
 ---
 ### AUDIO
 The `<audio>` is one of the HTML5 elements added to allow embedding audio files to a web page. Since not all browsers support all audio formats, the audio file is encoded using special codecs.
@@ -93,6 +102,19 @@ The `<source>` tag or the src attribute is used to indicate the variations of th
     </body>
     
     </html>
+
+<!DOCTYPE html>
+<html>  
+    <body>
+        <!-- audio tag starts here -->
+        <audio controls>
+            <source src="test.mp3" type="audio/mp3">
+            <source src="test.ogg" type="audio/ogg">
+        </audio>
+        <!-- audio tag ends here -->    
+    </body>   
+</html>
+
 ---
 ### VIDEO
 The `<video>` tag is used to embed video content in a document, such as a movie clip or other video streams.
@@ -116,6 +138,21 @@ The text between the `<video>` and `</video>` tags will only be displayed in bro
     </body>
     </html>
 
+
+<!DOCTYPE html>
+<html>
+    <body>  
+    <video width="400"
+            height="350"
+            controls>
+            <source src="myvid.mp4"
+                    type="video/mp4">
+        <source src="myvid.ogg"
+                    type="video/ogg">
+    </video>
+    </body>
+</html>
+
 This example illustrates the use of the autoplay attribute in the HTML `<video>` tag.
 
 ### Browser Support
@@ -138,10 +175,24 @@ The `<object>` tag is an HTML tag and used to display multimedia like audios, vi
             <h1>HTML Object Tag</h1>
             <!--HTML object tag starts here-->
             <object data=
-    "https://media.geeksforgeeks.org/wp-content/cdn-uploads/Geek_logi_-low_res.png"
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1024px-HTML5_logo_and_wordmark.svg.png"
     width="550px" height="150px">GeeksforGeeks
             <!--HTML object tag ends here-->
             </object>
         </body>
     
     </html>
+
+<!DOCTYPE html>
+    
+<html>
+    <body>
+        <!--HTML object tag starts here-->
+        <object data=
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1024px-HTML5_logo_and_wordmark.svg.png"
+    width="400px" height="300px">GeeksforGeeks
+        <!--HTML object tag ends here-->
+        </object>
+        </body>
+    
+</html>
