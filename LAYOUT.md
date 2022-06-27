@@ -1,5 +1,6 @@
 ---
 layout: default
+title: layout
 author: BCNGeeks
 date: 20th June 2022
 ---
