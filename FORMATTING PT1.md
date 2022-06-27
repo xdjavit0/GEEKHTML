@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Markdown Guidelines
+title: Formatting pt1
 author: BCNGeeks
 date: 21th June 2022
 ---
