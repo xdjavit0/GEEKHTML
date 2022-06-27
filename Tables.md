@@ -106,7 +106,7 @@ This is an example of a basic table structure.
         </tr>
     </table>
 
-In this example shows an example of a simple table. The op
+This example shows an example of a simple table. The op
 
 ---
 ## CAPTION
@@ -142,7 +142,7 @@ The `<caption>` tag must be inserted immediately after the `<table>` tag.
       </tr>
     </table>
 
-In this example we can see the HTML code used to create the table of the first example úsing the `<caption>` tag.
+This example shows the HTML code used to create the table of the first example úsing the `<caption>` tag.
 
 ---
 ## COLGROUP
@@ -202,7 +202,7 @@ The `<col>` tag is useful for applying styles to entire columns, instead of repe
         <td>$53</td>
       </tr>
     </table>
-
+This example shows how the `<col>` tag is inside the `<colgroup>` tag and how it apply a style in a group of columns. 
 
 
 ---
@@ -216,10 +216,6 @@ A table can be splited in three parts: head (thead), body (tbody), foot (tfoot).
 thead {color: green;}
 tbody {color: yellow;}
 tfoot {color: red;}
-
-table, th, td {
-  border: 1px solid black;
-}
 </style>
 </head>
 <body>
@@ -338,5 +334,5 @@ The `<tfoot>` tag must be used in the following context: As a child of a `<table
         </tr>
       </tfoot>
     </table>
-
+This example shows how to apply the diferents parts of a table to output the visual example of this section.
 
