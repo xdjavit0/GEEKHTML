@@ -174,7 +174,7 @@ A semantic element clearly describes its meaning to both the browser and the dev
 
 ---
 
-### non-SEMANTIC ELEMENTS
+### NON-SEMANTIC ELEMENTS
 
 Inline elements are meant to differentiate part of a text, to give it a particular function or meaning. Inline elements usually comprise a single or few words.
 
