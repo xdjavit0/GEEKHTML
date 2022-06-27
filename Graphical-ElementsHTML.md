@@ -18,7 +18,7 @@ date: 21th June 2022
     - [EXAMPLE](#example-1)
     - [VIDEO](#video)
     - [EXAMPLE](#example-2)
-    - [Browser Support](#browser-support)
+    - [BROWSER SUPPORT](#browser-support)
     - [OBJECT](#object)
     - [EXAMPLE](#example-3)
 
@@ -155,6 +155,7 @@ The text between the `<video>` and `</video>` tags will only be displayed in bro
 This example illustrates the use of the autoplay attribute in the HTML `<video>` tag.
 
 ### BROWSER SUPPORT
+
 | Property | MP4 | WebM | Ogg|
 |:----:|:-------------:|:-----:|:------:|
 | Chrome  | YES | YES | YES|
@@ -162,7 +163,9 @@ This example illustrates the use of the autoplay attribute in the HTML `<video>`
 | Firefox | YES | YES | YES|
 | Safary | YES | YES | NO|
 | Opera | YES | YES | YES|
+
 ---
+
 ### OBJECT
 The `<object>` tag is an HTML tag and used to display multimedia like audios, videos, images, PDFs, and Flash in web pages. It can also be used for displaying another webpage inside the HTML page. 
 ### EXAMPLE
