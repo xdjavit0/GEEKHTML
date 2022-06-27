@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Lists
 author: BCNGeeks
 date: 23th June 2022
 ---
