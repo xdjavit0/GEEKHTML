@@ -154,7 +154,7 @@ The text between the `<video>` and `</video>` tags will only be displayed in bro
 
 This example illustrates the use of the autoplay attribute in the HTML `<video>` tag.
 
-### Browser Support
+### BROWSER SUPPORT
 | Property | MP4 | WebM | Ogg|
 |:----:|:-------------:|:-----:|:------:|
 | Chrome  | YES | YES | YES|
