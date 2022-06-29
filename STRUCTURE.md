@@ -33,7 +33,7 @@ In HTML 5, the declaration is simple:
 
     <!DOCTYPE html>
 
-In older HTML documents, the declaration ism ore complicated because the declaration must refer to a DTD.
+In older HTML documents, the declaration is more complicated because the declaration must refer to a DTD(Document Type Definition).
 
 HTML 4.01:
 
