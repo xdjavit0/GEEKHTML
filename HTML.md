@@ -5,8 +5,6 @@ author: BCNGeeks
 date: 21th June 2022
 ---
 
-# HTML
-
 ## TABLE OF CONTENTS
 
 - [HTML](#html)
@@ -55,7 +53,9 @@ This is a standard page of html
     </body>
     </html>
 
-**Also, you can check mozilla dev documentation**
+<!-- end of the list -->
+
+Also, you can check mozilla dev documentation
 
 [Mozilla DOCS](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML).
 
@@ -109,7 +109,7 @@ Elements can be placed within other elements. This is called nesting. If we want
 
     <p>My cat is <strong>very</strong> grumpy.</p>
 You will get this:
-<p>My cat is <strong>very</strong> grumpy.</p>
+My cat is **very** grumpy.
 
 There is a right and wrong way to do nesting. In the example above, we opened the p element first, then opened the strong element. For proper nesting, we should close the strong element first, before closing the p.
 
@@ -117,7 +117,7 @@ The following is an example of the wrong way to do nesting:
 
     <p>My cat is <strong>very grumpy.</p></strong>
 
- You will get this: <p>My cat is <strong>very grumpy.</p></strong>
+ You will get this: My cat is **very grumpy.**
 
 The tags have to open and close in a way that they are inside or outside one another. With the kind of overlap in the example above, the browser has to guess at your intent. This kind of guessing can result in unexpected results.
 
@@ -140,7 +140,7 @@ Only a simple text editor is needed to write an HTML document.
 
 Web pages can be created and modified by using professional HTML editors. However, for learning HTML you can use a simple text editor like Notepad (PC) or TextEdit (Mac). Using a simple text editor is also good way to learn HTML.
 
-### TOP HTML IDES:
+### TOP HTML IDES
 
 - Visual Studio Code
 
@@ -148,7 +148,7 @@ Web pages can be created and modified by using professional HTML editors. Howeve
 - Notepad++
   - Among the most popular HTML editors, Notepad + + is fast, time-tested, and foolproof. With its straightforward and clean user interface, Notepad++ has long been a top open-source HTML editor. Despite the fact that this HTML editor is exclusive to the Windows platform, Linux users can work with this program via Wine.
 - Komodo Edit
-  - The Komodo editor and the Komodo IDE are the two versions of Komodo. The editor is open-source and can be downloaded for free. It is a simplified version of IDE. Komodo Edit is an extremely powerful HTML IDE that supports Python, Perl, Ruby, HTML/CSS, JavaScript, as well as other programming languages. Windows, Linux, and Mac OS systems are supported by Komodo Edit. 
+  - The Komodo editor and the Komodo IDE are the two versions of Komodo. The editor is open-source and can be downloaded for free. It is a simplified version of IDE. Komodo Edit is an extremely powerful HTML IDE that supports Python, Perl, Ruby, HTML/CSS, JavaScript, as well as other programming languages. Windows, Linux, and Mac OS systems are supported by Komodo Edit.
 - Brackets
   - Bracket is undeniably one of the best HTML IDEs developed by Adobe Systems. As a powerful, lightweight editor, Brackets offers a number of great visual tools and preprocessor support that make designing in the browser easy.
 - Sublime Text 3
@@ -158,9 +158,8 @@ Web pages can be created and modified by using professional HTML editors. Howeve
 
 <!-- end of the list -->
 ---
-## ELEMENTS TYPES
 
-### INTRODUCTION
+## ELEMENTS TYPES
 
 In HTML there are two diferent types, Block Level or Semantic and Inline Level or non-Semantic elements.
 
